@@ -11,6 +11,7 @@ Essentially it was developed for ETL (Extract Transform Load) requirements.
 #
 
 # DAG(Directed Acyclic Graphs)- 
+
 It **defines the worflow** of the task (constraints & dependencies) and not **what work will** a particular task will do.
 You can create an DAG instance using **airflow.models.dag.DAG**
 
