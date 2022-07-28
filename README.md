@@ -1,2 +1,5 @@
-# airflow-Tut
-Airflow Tutorial to learn practically with basics theory understanding.
+# airflow-Tutorial
+
+Airflow practical Tutorial.
+
+Concepts.md - Contains all the concpets of airflow platform
