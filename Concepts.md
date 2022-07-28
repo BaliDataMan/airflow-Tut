@@ -2,9 +2,13 @@ Airflow is open source **workflow management** tool, which do the follwoing:
 - Defines worflows
 - Execute worflows 
 - Monitor worflows
+
 And worflow is nothing but set of sequential steps for completing bigger work.
 
 Essentially it was developed for ETL (Extract Transform Load) requirements.
+
+
+#
 
 # DAG(Directed Acyclic Graphs)- 
 It **defines the worflow** of the task (constraints & dependencies) and not **what work will** a particular task will do.
@@ -31,7 +35,7 @@ Mainly Operator are of 3 types:
 Creation of Operator instance or unit/node of work in DAG is called as TASK.
 
 
-# Task Instance 
+# Task Instance -
 When some task **run/execute** that becomes Task Instance. It has proper life cycle which Task Insatnce have to go through. Task Instance have follwoing states:
 - Running
 - Success
@@ -40,20 +44,15 @@ When some task **run/execute** that becomes Task Instance. It has proper life cy
 - Retry, etc
 
 
-# DAGRun
+# DAGRun-
 When Dag **run/execute** that becomes DAGRun. One can run multiple DAGRuns w.r.t single DAG.
 
 
 
-## Relation between Task Instance and DAGRun
+## Relation between Task Instance and DAGRun-
 
 Task is an node in DAG.
 Task instance is execution of those task.
 SO when we say DAGRun that means multiple Task Instances are running in that DAGRun.
 
 Hence DAGRun executes multiple Task Instances!!
-
-
-
-
-
