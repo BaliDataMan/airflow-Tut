@@ -8,8 +8,6 @@ And worflow is nothing but set of sequential steps for completing bigger work.
 Essentially it was developed for ETL (Extract Transform Load) requirements.
 
 
-#
-
 # DAG(Directed Acyclic Graphs)- 
 
 It **defines the worflow** of the task (constraints & dependencies) and not **what work will** a particular task will do.
