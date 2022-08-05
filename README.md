@@ -20,11 +20,12 @@ Airflow practical Tutorial.
 - Use Bash script to easily Setup & Run [airflow using docker](https://github.com/BaliDataMan/airflow-docker-setup-bash-script)
     - ```Run airflow ./airflow-docker-setup-bash-script/airflow-docker-setup.sh```
 
-**Down/close the aiflow docker compose, also all the VOlumnes (-V)**
+**Down/close the aiflow docker compose, also all the Volumnes (-V)**
 - ```sudo docker-compose down -v```
 
 **If you want to clean the defaults exmaples of airflow, jusmake "AIRFLOW__CORE__LOAD_EXAMPLES" as "False"**
-**initialization of airflow using docker compose..**
+
+**Next, Initialization of airflow using docker compose..**
 - ```sudo docker-compose up airflow-init```
 
 
