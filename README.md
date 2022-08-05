@@ -15,7 +15,7 @@ Airflow practical Tutorial.
 
 
 **SetUp Airflow**
-- create & activate conda env: airflow_tut
+- create & activate conda env: ```airflow_tut```
 - ```cd airflow-Tut```
 - Use Bash script to easily Setup & Run [airflow using docker](https://github.com/BaliDataMan/airflow-docker-setup-bash-script)
     - ```Run airflow ./airflow-docker-setup-bash-script/airflow-docker-setup.sh```
