@@ -1,6 +1,6 @@
 # airflow-Tutorial
 
-Airflow practical Tutorial.
+Airflow Tutorial (with docker setup)
 
 **Concepts.md** - Contains all the concpets of airflow platform.
 
